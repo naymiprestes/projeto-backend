@@ -6,7 +6,7 @@ import AppDataSource from "./data-source";
     console.error("error durante inicialização", err);
   });
 
-  app.listen(3000, () => {
+  app.listen(3333, () => {
     console.log("Servidor executando");
   });
 })();
