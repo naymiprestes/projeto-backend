@@ -18,8 +18,8 @@ userRouter.patch(
 );
 userRouter.delete(
   "/:id",
-  authTokenMiddleware,
-  isAdmOrOwnerMiddleware,
+  // authTokenMiddleware,
+  // isAdmOrOwnerMiddleware,
   userDeleteController
 );
 

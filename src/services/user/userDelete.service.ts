@@ -4,6 +4,7 @@ import AppError from "../../erros/appError";
 
 const userDeleteService = async (id: string) => {
   const userRepository = AppDataSource.getRepository(User);
+  console.log("cheguei no backkkkkkkkkkkkkkk ");
 
   const user = await userRepository.findOneBy({ id });
 

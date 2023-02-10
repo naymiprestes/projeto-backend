@@ -26,7 +26,7 @@ class User {
   @Exclude()
   password: string;
 
-  @Column()
+  @Column({ default: false })
   isAdm: boolean;
 
   @CreateDateColumn()
